@@ -1,11 +1,12 @@
 .wrapper {
 	top: 0;
 	left: 0;
-	position: absolute;
+    position: fixed;
+    width: 100%;
 }
 
 #star, #star2, #star3 {
-	position: absolute;
+    position: absolute;
 }
 
 #star {
@@ -195,7 +196,7 @@
 #star:after {
 	content: '';
 	position: absolute;
-	top: 2000px;
+	top: 1000px;
 	width: 1px;
 	height: 1px;
 	background: transparent;
@@ -439,7 +440,7 @@
 #star2:after {
 	content: '';
 	position: absolute;
-	top: 2000px;
+	top: 1000px;
 	width: 2px;
 	height: 2px;
 	background: transparent;
@@ -534,7 +535,7 @@
 	position: absolute;
 	width: 3px;
 	height: 3px;
-	top: 2000px;
+	top: 1000px;
 	background: transparent;
 	box-shadow: 387px 1878px #fff, 760px 1564px #fff, 1487px 999px #fff,
     948px 1828px #fff, 1977px 1001px #fff, 1284px 1963px #fff, 656px 284px #fff,
