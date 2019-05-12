@@ -1,0 +1,76 @@
+div {
+	position: absolute;
+	text-align: center;
+	align-items: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+div h1 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 48px;
+	animation: title 1.5s ease;
+}
+
+#myName {
+	color: #FF5BDD;
+}
+
+div p {
+	text-align: center;
+	font-family: 'Lobster', sans-serif;
+	color: white;
+	font-size: 32px;
+	animation: par 1.5s ease;
+}
+
+div button {
+	margin-top: 30px;
+	width: 200px;
+	height: 50px;
+	background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+	cursor: pointer;
+	color: white;
+	border: none;
+	border-radius: 120px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	transition: 0.1s ease-in;
+	animation: botoncito 1.5s ease;
+}
+
+div button:hover {
+	box-shadow: 0 0 15px;
+}
+
+@keyframes title {
+	from {
+		transform: translateY(-50%);
+		opacity: 0;
+	} to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes par {
+	from {
+		transform: translateY(50%);
+		opacity: 0;
+	} to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes botoncito {
+	from {
+		opacity: 0;
+	} to {
+		opacity: 1;
+	}
+}
