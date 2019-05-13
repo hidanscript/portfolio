@@ -28,7 +28,7 @@ div p {
 	animation: par 1.5s ease;
 }
 
-div button {
+.button-default {
 	margin-top: 30px;
 	width: 200px;
 	height: 50px;
@@ -43,7 +43,25 @@ div button {
 	animation: botoncito 1.5s ease;
 }
 
-div button:hover {
+.button-default:hover {
+	box-shadow: 0 0 15px;
+}
+
+.button-clicked {
+	margin-top: 30px;
+	width: 200px;
+	height: 50px;
+	background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+	cursor: pointer;
+	color: white;
+	border: none;
+	border-radius: 120px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	transition: 0.1s ease-in;
+}
+
+.button-clicked:hover {
 	box-shadow: 0 0 15px;
 }
 
