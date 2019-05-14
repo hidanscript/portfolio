@@ -1,15 +1,67 @@
-ul {
+.nav-bar {
+	z-index: 2;
+}
+
+.nav-bar h2 {
+	position: absolute;
+	display: inline-block;
+	color: #FFF;
+	float: left;
+	margin: 5px;
+	margin-left: 30px;
+	padding: 3px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	animation: titleAnim 2s ease;
+}
+
+.nav-bar h2 strong {
+	color: pink;
+}
+
+.nav-bar ul {
+	background-color: transparent;
+	position: absolute;
+	width: 100%;
 	list-style: none;
 	display: inline-block;
+	animation: navAnim 2s ease;
 }
 
-ul li a {
-	color: black;
+.nav-link {
+	display: inline-block;
+	color: #FFF;
+	float: right;
+	margin: 10px;
+	padding: 5px;
 	text-decoration: none;
-	font-family: sans-serif;
-	transition: 0.2s ease-in;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	transition: 100ms ease-in;
 }
 
-ul li a:hover {
-	color: blue;
+.nav-link:hover {
+	color: lightgray;
+}
+
+@keyframes navAnim {
+	from {
+		opacity: 0;
+		transform: translateX(25%);
+	} to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes titleAnim {
+	from {
+		opacity: 0;
+		transform: translateX(-50%);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }

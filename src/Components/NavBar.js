@@ -1,20 +1,24 @@
 import React, { Component } from 'react';
+import NavLink from './NavLink';
 import './css/NavBar.css';
 
 class NavBar extends Component {
 
-	constructor(props) {
-		super(props);
-
-	}
-
 	render() {
 		return(
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">GitHub</a></li>
-			</ul>
+
+			<div className="nav-bar">
+				<h2><strong>David Ortiz</strong> Portfolio</h2>
+				<ul>
+					<NavLink path="/" name="Contact"/>
+					<NavLink path="/" name="GitHub"/>
+					<NavLink path="/" name="Projects"/>
+					<NavLink path="/" name="Skills"/>
+					<NavLink path="/about" name="About"/>
+					<NavLink path="/home" name="Home"/>	
+				</ul>
+			</div>
+
 		);
 	}
 }
