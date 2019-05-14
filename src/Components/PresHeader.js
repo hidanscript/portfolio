@@ -15,7 +15,7 @@ class PresHeader extends Component {
 
 	render() {
 		return(
-			<div>
+			<div className="pres-header">
 				<h1>Hello, I'm <strong id="myName">David Ortiz</strong>.</h1>
 				<p>Frontend Developer</p>
 				<Link to="/about">

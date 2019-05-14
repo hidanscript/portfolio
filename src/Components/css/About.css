@@ -4,6 +4,23 @@
 	box-sizing: border-box;
 }
 
-p {
-	color: black;
+.About {
+	overflow-x: hidden;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0%;
+	left: 0%;
+	background-color: #FFF;
+	animation: aboutPage 2s ease;
+	transform: translateY(8%);
+	box-shadow: 0 -2px 40px;
+}
+
+@keyframes aboutPage {
+	from {
+		transform: translateY(110%);
+	} to {
+		transform: translateY(10%);
+	} 
 }

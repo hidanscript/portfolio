@@ -1,0 +1,10 @@
+.bg {
+	overflow: hidden;
+	z-index: -10;
+	width: 100vw;
+	height: 100vh;
+	/* background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%); */
+	background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	background-position: fixed;
+	position: fixed;
+}
