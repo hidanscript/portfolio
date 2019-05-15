@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavLink from './NavLink';
+import Logo from './css/img/icon2.png';
 import './css/NavBar.css';
 
 class NavBar extends Component {
@@ -8,6 +9,7 @@ class NavBar extends Component {
 		return(
 
 			<div className="nav-bar">
+				<img src={Logo}/>
 				<h2><strong>David Ortiz</strong> Portfolio</h2>
 				<ul>
 					<NavLink path="/" name="Contact"/>

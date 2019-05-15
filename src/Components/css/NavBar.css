@@ -8,7 +8,7 @@
 	color: #FFF;
 	float: left;
 	margin: 5px;
-	margin-left: 30px;
+	margin-left: 10px;
 	padding: 3px;
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
@@ -16,6 +16,16 @@
 	animation: titleAnim 2s ease;
 }
 
+.nav-bar img {
+	position: relative;
+	width: 40px;
+	background: rgba(255,255,255,.2);
+	border-radius: 80px;
+	color: white;
+	margin: 5px;
+	float: left;
+	animation: titleAnim 2s ease;
+}
 .nav-bar h2 strong {
 	color: pink;
 }
@@ -23,7 +33,7 @@
 .nav-bar ul {
 	background-color: transparent;
 	position: absolute;
-	width: 100%;
+	width: 96%;
 	list-style: none;
 	display: inline-block;
 	animation: navAnim 2s ease;
@@ -34,6 +44,7 @@
 	color: #FFF;
 	float: right;
 	margin: 10px;
+	margin-right: 20px;
 	padding: 5px;
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
