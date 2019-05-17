@@ -19,12 +19,42 @@
 	animation: aboutPage 2s ease;
 	transform: translateY(8%);
 	box-shadow: 0 -2px 40px;
+	transition: 250ms ease-in;
+}
+
+.about-box {
+	left: 50%;
+	transform: translateX(-35%);
+	margin: 20px;
+	align-items: left;
+	position: fixed;
+	text-align: center;
+	width: 700px;
+	height: 250px;
+	background-color: rgba(0,0,0,.05);
+	border-radius: 8px;
+}
+
+.about-title {
+	text-align: left;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.about-desc {
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	margin-left: 40px;
 }
 
 @keyframes aboutPage {
 	from {
 		transform: translateY(110%);
 	} to {
-		transform: translateY(10%);
+		transform: translateY(8%);
 	} 
 }

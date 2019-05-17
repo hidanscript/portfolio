@@ -8,8 +8,15 @@ class About extends Component {
 		return(
 			<div className="about-page">
 				<div className ="About">
-					<p id="about-title">About Page</p>
-					<input type="text" placeholder="Hello"/>
+					<div className="about-box">
+						<p className="about-title">About</p>
+						<p className="about-desc">
+							I'm David Ortiz, a Javascript Frontend Developer,
+							I was born in Venezuela and I am currently living in Buenos Aires,
+							Argentina. <br/> XDXSAXLKSADKASKDJNASJKDNJKASDJ
+						</p>
+						<input type="text" placeholder="Hello"/>
+					</div>
 				</div>
 				<NavBar/>
 			</div>
